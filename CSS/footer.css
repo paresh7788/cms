@@ -1,0 +1,25 @@
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: auto;
+    background-color: #EEE7F2;
+    color: #fff;
+    
+  }
+
+  .company-details, .location-details {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #3498db;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .company-details, .location-details {
+      flex: 100%; /* Make them full width on smaller screens */
+    }
+  }

@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0CB9ED;
+    color: #FFF;
+  }
+
+  #main-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+ 
+    background-color: #EEE7F2;
+    margin-bottom: 2pc;
+  }
+
+  #left-container,
+  #right-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #left-container img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  #right-container {
+    flex-direction: column;
+  }
+
+  .button {
+    margin: 10px;
+    width: 100%; /* Make buttons full width on smaller screens */
+    max-width: 200px;
+    padding: 10px;
+    background-color: #0CB9ED;
+    color: #EEE7F2;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s, transform 0.5s;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #595959;
+    color: #0CB9ED;
+  }
+   a{
+    text-decoration: none;
+    color: #FFF;
+
+  }
+
+  /* Delay each button */
+  .button:nth-child(1) { transition-delay: 0.2s; }
+  .button:nth-child(2) { transition-delay: 0.4s; }
+  .button:nth-child(3) { transition-delay: 0.6s; }
+  .button:nth-child(4) { transition-delay: 0.8s; }
+
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    #left-container,
+    #right-container {
+      flex: 100%; /* Make them full width on smaller screens */
+    }
+
+    #left-container img {
+      width: 100%;
+      height: auto;
+    }
+  }

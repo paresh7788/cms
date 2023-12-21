@@ -1,0 +1,47 @@
+.property-heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #EEE7F2;
+    color: #595959;
+    margin-top: 1pc;
+  }
+
+  .container {
+    
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 3pc;
+    text-align: center;
+    padding: 20px;
+    background-color: #EEE7F2;
+    color: #595959;
+    margin-top: 1pc;
+  }
+  button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:1pc ;
+    margin-bottom:1pc ;
+  }
+
+  button:hover {
+    background-color: #94c9ed;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    
+  
+    .property-heading {
+      padding: 10px;
+    }
+  }

@@ -1,0 +1,33 @@
+header {
+    background:#EEE7F2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-div {
+    width: 100%;
+    background:#EEE7F2;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  .sub-div p,h2{
+    color: #333;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sub-div {
+      padding: 15px;
+    }
+  }

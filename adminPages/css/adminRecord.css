@@ -1,0 +1,72 @@
+.property-heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #EEE7F2;
+    color: #595959;
+    margin-top: 2pc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid  #b4dae5;
+    padding: 8px;
+    text-align: left;
+    color: #595959;
+  }
+
+  th {
+    background-color: #0CB9ED;
+  }
+
+  td.operations {
+    text-align: center;
+  }
+
+  .form-container {
+    margin-top: 3pc;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEE7F2;
+    color: #595959;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  @media screen and (max-width: 600px) {
+    .form-container {
+      padding: 10px;
+    }
+
+    input, select {
+      margin-bottom: 10px;
+    }
+    .property-heading {
+        padding: 10px;
+      }
+  }
